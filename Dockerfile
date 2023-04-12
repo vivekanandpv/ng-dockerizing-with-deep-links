@@ -7,6 +7,7 @@ COPY nginx.conf /etc/nginx/conf.d/nginx.conf
 COPY dist/routing-demo /usr/share/nginx/html
 
 #   commands
+#   ng b
 #   docker image build --tag ng-app .
 #   docker container run --detach --name ng-container --publish 8080:80 ng-app
 
